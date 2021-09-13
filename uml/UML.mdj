@@ -545,7 +545,7 @@
 											"font": "Arial;13;1",
 											"left": 573,
 											"top": 359,
-											"width": 41.919921875,
+											"width": 108.72265625,
 											"height": 13,
 											"text": "Admin"
 										},
@@ -580,7 +580,7 @@
 									"font": "Arial;13;0",
 									"left": 568,
 									"top": 352,
-									"width": 51.919921875,
+									"width": 118.72265625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF73gFGnNxlZHQ="
@@ -607,7 +607,7 @@
 									"font": "Arial;13;0",
 									"left": 568,
 									"top": 377,
-									"width": 51.919921875,
+									"width": 118.72265625,
 									"height": 10
 								},
 								{
@@ -619,11 +619,47 @@
 									"model": {
 										"$ref": "AAAAAAF73gFGnNxhGMk="
 									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF73hvn3uVfR58=",
+											"_parent": {
+												"$ref": "AAAAAAF73gFGndxqo2I="
+											},
+											"model": {
+												"$ref": "AAAAAAF73hvn1eVcvrE="
+											},
+											"font": "Arial;13;0",
+											"left": 573,
+											"top": 392,
+											"width": 108.72265625,
+											"height": 13,
+											"text": "+creerCours()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF73hv24+VlP0s=",
+											"_parent": {
+												"$ref": "AAAAAAF73gFGndxqo2I="
+											},
+											"model": {
+												"$ref": "AAAAAAF73hv23eVifHU="
+											},
+											"font": "Arial;13;0",
+											"left": 573,
+											"top": 407,
+											"width": 108.72265625,
+											"height": 13,
+											"text": "+supprimerCours()",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
 									"left": 568,
 									"top": 387,
-									"width": 51.919921875,
-									"height": 10
+									"width": 118.72265625,
+									"height": 38
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -662,8 +698,8 @@
 							"containerChangeable": true,
 							"left": 568,
 							"top": 352,
-							"width": 51.919921875,
-							"height": 45,
+							"width": 118.72265625,
+							"height": 73,
 							"nameCompartment": {
 								"$ref": "AAAAAAF73gFGnNxkrQM="
 							},
@@ -842,13 +878,30 @@
 											"height": 13,
 											"text": "+telechargerDevoir()",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF73ht79uVYdHs=",
+											"_parent": {
+												"$ref": "AAAAAAF73gFbTdyU9YI="
+											},
+											"model": {
+												"$ref": "AAAAAAF73ht77eVV89s="
+											},
+											"font": "Arial;13;0",
+											"left": 341,
+											"top": 539,
+											"width": 118.853515625,
+											"height": 13,
+											"text": "+suivreCours()",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 336,
 									"top": 519,
 									"width": 128.853515625,
-									"height": 23
+									"height": 38
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -884,7 +937,7 @@
 							"left": 336,
 							"top": 456,
 							"width": 128.853515625,
-							"height": 86,
+							"height": 101,
 							"nameCompartment": {
 								"$ref": "AAAAAAF73gFbTdyOVxI="
 							},
@@ -1263,8 +1316,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 506,
-									"top": 347,
+									"left": 509,
+									"top": 348,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -1284,8 +1337,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 495,
-									"top": 337,
+									"left": 498,
+									"top": 338,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1305,8 +1358,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 529,
-									"top": 366,
+									"left": 532,
+									"top": 367,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1324,7 +1377,7 @@
 								"$ref": "AAAAAAF73gFbTdyN5Z4="
 							},
 							"lineStyle": 1,
-							"points": "437:455;599:271",
+							"points": "443:455;599:273",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF73hYdW+UeYWg="
@@ -1357,8 +1410,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 601,
-									"top": 301,
+									"left": 623,
+									"top": 304,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -1378,8 +1431,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 587,
-									"top": 296,
+									"left": 608,
+									"top": 302,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1399,8 +1452,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 630,
-									"top": 312,
+									"left": 652,
+									"top": 309,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1418,7 +1471,7 @@
 								"$ref": "AAAAAAF73gFGnNxjuKk="
 							},
 							"lineStyle": 1,
-							"points": "602:351;630:275",
+							"points": "632:351;644:275",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF73hYpV+UvHLw="
@@ -1775,6 +1828,24 @@
 								"$ref": "AAAAAAF73f4kgdlNnLk="
 							}
 						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF73hvn1eVcvrE=",
+							"_parent": {
+								"$ref": "AAAAAAF73gFGnNxhGMk="
+							},
+							"name": "creerCours"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF73hv23eVifHU=",
+							"_parent": {
+								"$ref": "AAAAAAF73gFGnNxhGMk="
+							},
+							"name": "supprimerCours"
+						}
 					]
 				},
 				{
@@ -1825,6 +1896,14 @@
 								"$ref": "AAAAAAF73gFbTdyL5bo="
 							},
 							"name": "telechargerDevoir"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF73ht77eVV89s=",
+							"_parent": {
+								"$ref": "AAAAAAF73gFbTdyL5bo="
+							},
+							"name": "suivreCours"
 						}
 					]
 				},
